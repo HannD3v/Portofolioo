@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kritik & Saran</title>
+<style>
+body {
+  margin: 0;
+  padding: 0;
+}
+
+
+    .navbar{
+	position: flex;
+	top:0;
+	width: 100%;
+	height:60px;
+	background:#222;
+	color:white;
+	display: flex;
+	align-items:center;
+	padding: 0 25px;
+	box-size: border-box;
+	z-index: 1000;
+	justify-content:center;
+	
+	}
+	
+	.nav-links {
+	list-style: none;
+	display:flex;
+	gap: 25px;
+	
+	}
+	
+	.nav-links li a {
+	color:#ddd;
+	text-decoration: none;
+	font-size: 16px;
+	transition: 0.3s;
+	background-color: white;
+		color: #007bff;
+		padding: 10px 10px;
+		text-decoration: none;
+		font-weight: none;
+		border-radius: 5px
+	
+	}
+	
+	#content {
+	padding: 80px 20px;
+	}
+	
+	.logo {
+	color:white;
+	font-size: 20px;
+	font-weight:bold;
+	margin-right:auto;
+	text-shadow:0 0 7px #fff, 0 0 10px #fff, 0 0 21px #ff00de;
+	}
+	
+	.logo a {
+	background-color: white;
+	color: #007bff;
+	border-radius: 50%;
+	padding: 10px;
+	text-decoration: none;
+	color: white;
+	background-color: white;
+		color: #007bff;
+		font-weight: none;
+
+	
+	}
+	
+	section {
+	background: linear-gradient(135deg, #0ad9f5, #086385);
+	color: white;
+	text-align: center;
+	padding: 60px 30px;
+	width: 100%;
+
+	}
+	
+	.link-hero {
+		background-color: white;
+		color: #007bff;
+		padding: 10px 20px;
+		text-decoration: none;
+		font-weight: none;
+		border-radius: 5px
+	}
+	
+	.link-hero:hover {
+		background-color: #319cce;
+		color: white;
+		transition: 0.3s;
+		
+	}
+	
+	.nav-links li a:hover {
+	background-color: #319cce;
+	color:white;
+	}
+
+
+
+   .card {
+			width: 500px;
+			border: 1px solid grey;
+			box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+			background-color: white;
+			overflow: hidden;
+			margin: 5px;
+			text-align: center;
+			border-radius: 10px;
+			padding:10px;
+		}
+
+    .card-input {
+        width: 100%;
+        max-width: 300px;
+        padding: 12px 15px;
+        margin: 8px;
+        text-align: center;
+        border-radius: 10px;
+        
+
+        /* membuat garis(border) */
+        border: 1px solid #ccc;
+        border-radius: 10px;
+        font-size: 16px;
+
+        /* transisi halus */
+        transition: all 0.3s ease-in-out;
+        outline: none;
+    }
+
+    .card-btn {
+        background-color: #007bff;
+		color: white;
+        border: none;
+        padding: 15px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+        margin: 10px 0 15px;
+        font-size: 18px;
+		}
+
+        .tampilan {
+            justify-items: center;
+            font-weight: bold;
+            font-size: 10px;
+        }
+</style>
+
+</head>
+<body>
+
+    <nav class="navbar">
+	<div class="logo">
+	<a href="https://hannd3v.github.io/WebProfile/">Hp</a>
+	</div>
+		<ul class="nav-links">
+			<li><a href="index.html">Beranda</a></li>
+			<li><a href="https://hannd3v.github.io/WebProfile/">Profil</a></li>
+			<li><a href="https://www.instagram.com/0rewahann/">Kontak</a></li>
+			<li><a href="GuestPage.html"> Buku Tamu</a>
+        </ul>
+	</nav>
+
+
+
+    <div class="tampilan">
+    <h1>kritik & Saran</h1>
+    <div class="card">
+        <input type="text" placeholder="Nama Anda" class="card-input"><br>
+        <input type="text" placeholder="Email" class="card-input"><br>
+        <input type="text" placeholder="Nomor" class="card-input"><br>
+        <textarea placeholder="Masukkan pesan anda" class="card-input"></textarea><br>
+        <button class="card-btn">Kirim!</button>
+    </div>
+</body>
+</html>
